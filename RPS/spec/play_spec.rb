@@ -13,7 +13,7 @@ describe Game do
                 allow(player_1).to receive(:choice).and_return("rock")
                 allow(player_2).to receive(:choice).and_return("scissors")
                 
-                expect(game.play()).to eq "Kostas Won!"
+                expect(game.play()).to eq "Kostas won!"
             end
         end  
     end
