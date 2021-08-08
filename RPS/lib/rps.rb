@@ -6,7 +6,7 @@ class Game
       end
 
       def play()
-       #puts "You played #{person_1.choice} and Computer played #{person_2.choice}."
+        "You played #{person_1.choice} and Computer played #{person_2.choice}."
         combo = { "scissors" => "paper", "paper" => "rock", "rock" => "scissors" }
         if person_1.choice == person_2.choice
           "It's a draw!"
